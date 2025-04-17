@@ -5,7 +5,7 @@
 在工程 pubspec.yaml 中加入 dependencies
 
 dependencies:
-  umeng_common_sdk: https://e.coding.net/lyarmy/mobileDemo/umeng.git
+  umeng_common_sdk: https://github.com/zeo92/umeng.git
 
 # 使用
 
