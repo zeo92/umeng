@@ -3,7 +3,7 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 
-class UmengCommonSdk {
+class UmengFlutterSdk {
   static const MethodChannel _channel =
       const MethodChannel('umeng_common_sdk');
 

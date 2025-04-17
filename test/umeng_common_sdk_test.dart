@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:umeng_common_sdk/umeng_common_sdk.dart';
+import 'package:umeng_flutter_sdk/umeng_flutter_sdk.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('umeng_common_sdk');
@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await UmengCommonSdk.platformVersion, '42');
+    expect(await UmengFlutterSdk.platformVersion, '42');
   });
 }
